@@ -7,3 +7,5 @@
 require 'mysql2'
 require 'excon'
 require 'json'
+
+# this takes a hash of options, almost all of which map directly
