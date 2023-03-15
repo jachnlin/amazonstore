@@ -9,3 +9,4 @@ require 'excon'
 require 'json'
 
 # this takes a hash of options, almost all of which map directly
+# to the familiar database.yml in rails
