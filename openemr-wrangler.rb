@@ -5,3 +5,5 @@
 # When a change is detected, wrangle data into a blockchain ledger
 
 require 'mysql2'
+require 'excon'
+require 'json'
