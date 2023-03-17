@@ -17,3 +17,5 @@ client = Mysql2::Client.new(:host => "localhost", :port => "3306", :username => 
 # 'http://ce018849.ngrok.io/mineblock',
 # :instrumentor => ActiveSupport::Notifications
 # )
+
+# last_index_value set manually for hackathon demo
