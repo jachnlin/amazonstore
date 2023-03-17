@@ -19,3 +19,6 @@ client = Mysql2::Client.new(:host => "localhost", :port => "3306", :username => 
 # )
 
 # last_index_value set manually for hackathon demo
+last_index_value = 61
+
+while true
