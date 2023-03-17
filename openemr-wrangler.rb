@@ -12,3 +12,8 @@ require 'json'
 # to the familiar database.yml in rails
 # See http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/MysqlAdapter.html
 client = Mysql2::Client.new(:host => "localhost", :port => "3306", :username => "root", :password => "rootpw", :database => "openemr")
+
+# connection = Excon.new(
+# 'http://ce018849.ngrok.io/mineblock',
+# :instrumentor => ActiveSupport::Notifications
+# )
