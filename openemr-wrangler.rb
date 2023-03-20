@@ -22,3 +22,5 @@ client = Mysql2::Client.new(:host => "localhost", :port => "3306", :username => 
 last_index_value = 61
 
 while true
+
+    result = client.query("SELECT COUNT(*) FROM log")
