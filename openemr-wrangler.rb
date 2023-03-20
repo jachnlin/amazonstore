@@ -24,3 +24,5 @@ last_index_value = 61
 while true
 
     result = client.query("SELECT COUNT(*) FROM log")
+
+    current_index_value = result.to_a.first.values.first
