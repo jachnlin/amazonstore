@@ -26,3 +26,5 @@ while true
     result = client.query("SELECT COUNT(*) FROM log")
 
     current_index_value = result.to_a.first.values.first
+
+    if current_index_value > last_index_value
