@@ -28,3 +28,8 @@ while true
     current_index_value = result.to_a.first.values.first
 
     if current_index_value > last_index_value
+
+        data = client.query("SELECT height, weight, BMI, bps, bpd, temperature, date FROM form_vitals ORDER BY date DESC LIMIT 2")
+
+        current = data.to_a.first
+        previous = data.to_a.last
