@@ -33,3 +33,5 @@ while true
 
         current = data.to_a.first
         previous = data.to_a.last
+
+        current.merge!(previous)
