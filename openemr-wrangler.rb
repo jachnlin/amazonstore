@@ -35,3 +35,5 @@ while true
         previous = data.to_a.last
 
         current.merge!(previous)
+
+        # same = current & previous
