@@ -37,3 +37,5 @@ while true
         current.merge!(previous)
 
         # same = current & previous
+        #
+        # same.each { |x| current.reject! { |elem| elem == x} }
