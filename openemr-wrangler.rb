@@ -39,3 +39,5 @@ while true
         # same = current & previous
         #
         # same.each { |x| current.reject! { |elem| elem == x} }
+
+        Excon.post('http://ce01884d.ngrok.io/mineblock', :body => {:data => current}.to_json, :headers => { "Content-Type" => "application/json" });
