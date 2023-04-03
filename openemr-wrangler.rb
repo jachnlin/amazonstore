@@ -45,3 +45,5 @@ while true
     end
 
 last_index_value = current_index_value
+
+sleep 5
