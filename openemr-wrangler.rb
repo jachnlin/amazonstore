@@ -47,3 +47,5 @@ while true
 last_index_value = current_index_value
 
 sleep 5
+
+end
